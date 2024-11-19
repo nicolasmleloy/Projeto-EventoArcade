@@ -52,7 +52,7 @@ body{
     align-items: center;
     width: 30%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .namebar{
@@ -66,6 +66,7 @@ body{
 }
 
 .info{
+    position: relative;
     text-align: center;
     font-family: 'arcade';
     color: white;
@@ -116,6 +117,18 @@ video{
     width: 100%;
 }
 
+.right-mid-top{
+    justify-content: center;
+    display: flex;
+
+}
+
+.estrela{
+    position:absolute;
+    width: 80px;
+    bottom: 10px;
+    left: 350px;
+}
 
 
 @font-face {
