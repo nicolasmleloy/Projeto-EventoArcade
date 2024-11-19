@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap");
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(../midia/backall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#tela-arcade {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 795px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+#img-fundo {
+    width: 100%;
+    height: 100%;
+}
+
+#img-fundo img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#jogos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.item-jogos {
+    width: 280px;
+    height: 310px;
+    padding: 10px;
+}
+
+.item-jogos img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-selecionado {
+    background-color: white;
+    animation-name: destaque;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+#titulo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.joystick{
+    display: flex;
+    margin-top: 550px;
+    justify-content: space-between;
+    width: 100%;
+    height: 390px;
+    position: absolute;
+}
+
+
+.joyDireito{
+    display: flex;
+    align-items: end;
+}
+
+.joyDireito img{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.joyEsquerdo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imagem-seta{
+    width: 100px;
+}
+
+a{
+    z-index: 1;
+}
+
+@keyframes destaque{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
