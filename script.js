@@ -4,8 +4,8 @@ const botao2 = document.getElementById('botaodois')
 
 var itemMenu = document.getElementsByClassName("item-menu");
 var seta = document.querySelectorAll(".cada-menu img");
- 
- 
+
+
 var atual = 0;
 itemMenu[atual].classList.add("item-selecionado");
 seta[atual].style.display = "flex";
@@ -71,6 +71,9 @@ document.addEventListener('keydown',function(event){
             if(global == 0){
                 window.location.href = './inscreva-se/inscreva-se.html'
             }
+            if(global == 1){
+                window.location.href = './jogos/tela-jogos.html'
+            }
             botaoo.src='midia/botao1.png'
         }, 100);
     }
@@ -81,7 +84,6 @@ document.addEventListener('keydown',function(event){
             botao2.src='midia/botao3.png'
         }, 100);
     }
-
     
 })
 
