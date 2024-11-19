@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-position: center;
+    background-image: url(imagens/backall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+.background-back{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.background-all-mid{
+    background-image: url(imagens/08d9ef7723de602edefa8af825d9a1e2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 23px;
+    width: 1440px;
+    height: 795px;
+    border-radius: 20px;
+    border: 5px solid black ;
+}
+
+.left-mid{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 5px solid white;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.namebar{
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid  rgb(21, 21, 97);
+    width: 280px;
+    height: 25px;
+    margin-bottom: 90px ;
+    padding: 6px;
+}
+
+.info{
+    text-align: center;
+    font-family: 'arcade';
+    color: white;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.subtxt{
+    text-align: center;
+    font-family: 'arcade';
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.sub{
+    font-family: 'arcade';
+    padding: 9px;  
+    background-color: rgb(21, 21, 97);
+    border-radius: 30px;
+    color: black;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+}
+
+.sub:hover{
+    cursor: pointer;
+}
+
+.final{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 200px;
+}
+
+.arrowbackk{    
+    width: 120px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+
+video{
+    width: 100%;
+}
+
+
+
+@font-face {
+    font-family: 'arcade';
+    src: url(font/ARCADECLASSIC.TTF);
+}

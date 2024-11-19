@@ -1,0 +1,183 @@
+body{
+    cursor: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0;
+    height: 100vh;
+    background-image: url(midia/backall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.joystick{
+    display: flex;
+    margin-top: 550px;
+    justify-content: space-between;
+    width: 100%;
+    height: 390px;
+    position: absolute;
+}
+
+
+.joyDireito{
+    display: flex;
+    align-items: end;
+}
+.joyDireito img{
+    width: 50%;
+    height: 50%;
+}
+
+.joyEsquerdo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Parte Nicolas*/
+
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap");
+ 
+* {
+    margin: 0;
+}
+ 
+body {
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+ 
+#tela-arcade {  
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1440px;
+    height: 795px;
+    
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+ 
+#img-fundo {
+    background-color: #00597B;
+    width: 100%;
+    height: 100%;
+}
+ 
+#img-fundo img {
+    
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+ 
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    align-items: baseline;
+}
+ 
+.item-menu {
+    font-size: 3rem;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 1px white;
+    color: white;
+    background-color: #434343;
+}
+ 
+.item-selecionado {
+    font-size: 3rem;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 1px white;
+    text-decoration: none;
+    background-color: #103184;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+    border: 5px solid white;
+    transition: all 0.2s;
+}
+ 
+.cada-menu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.cada-menu img {
+    display: none;
+    padding: 2px;
+    width: 70px;
+    height: 60px;
+    
+    animation-name: setaMexendo;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+#contador-dias {
+    height: 100%;
+    display: flex;
+    align-items: start;
+}
+ 
+#contador-dias p {
+    width: 280px;
+    padding: 30px;
+    font-size: 1.5rem;
+    position: absolute;
+    color: white;
+}
+
+p{
+    
+    letter-spacing: 2px;
+    font-family: 'arcade';
+}
+
+
+@font-face {
+    font-family: 'arcade';
+    src: url(inscreva-se/font/ARCADECLASSIC.TTF);
+}
+ 
+@keyframes setaMexendo {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
